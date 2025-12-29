@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melodies — Music Platform</title>
+    <link rel="stylesheet" href="Home.css" />
+  </head>
+  <body>
+      <aside class="sidebar">
+        <h2 class="logo">Melodies</h2>
+        <nav class="text">
+          <ul>
+            <li class="smalltext">Menu</li>
+            <li class="active">Home</li>
+          <a href="Discover/Discover.html"><li>Discover</li> </a>
+            <a href="Music list/Albums.html"><li>Albums</li></a>
+            <a href="./Artist/Artist.html"><li>Artists</li></a>
+            <li class="smalltext">Library</li>
+            <li>Recently Added</li>
+            <li>Most Played</li>
+            <li class="smalltext">Library</li>
+            <li>Your Favorites</li>
+            <li>Your Playlist</li>
+            <li>Add Playlist</li>
+            <li class="smalltext">General</li>
+            <li>Settings</li>
+            <li style="color: pink">Logout</li>
+          </ul>
+        </nav>
+      </aside>
+
+    <main class="content">
+      <header class="top-nav">
+        <input type="text" placeholder="Search for tracks, artists..." />
+        <nav class="nav-links">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Premium</a>
+
+          <a href="/register,login/Login.html">
+            <button class="login">Login</button>
+          </a>
+          <a href="/register,login/register.html"> </a>
+          <button class="signup">Sign Up</button>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <img
+          src="./img/Billie Eilish top.webp"
+          class="hero-img"
+          alt="Billie Eilish"
+        />
+        <div class="hero-info">
+          <h1>Billie Eilish</h1>
+          <p>New Album • Happier Than Ever</p>
+          <div class="hero-buttons">
+            <button class="play">Play</button>
+            <button class="follow">Follow</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-top">
+          <h2>Weekly Top <span>Songs</span></h2>
+        </div>
+
+        <div class="section-row">
+          <div class="song-row">
+            <div class="song-card">
+              <img src="./img/ImagineDragon.webp" alt="Whatever It Takes" />
+              <div class="info">
+                <h3>Whatever It Takes</h3>
+                <p>Imagine Dragons 💧</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img src="./img/Skyfall.jpg" alt="Skyfall" />
+              <div class="info">
+                <h3>Skyfall</h3>
+                <p>Adele</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img src="./img/Superman.png" alt="Superman" />
+              <div class="info">
+                <h3>Superman</h3>
+                <p>Eminem</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img src="./img/SoftCoree.png" alt="Softcore" />
+              <div class="info">
+                <h3>Softcore</h3>
+                <p>The Neighbourhood</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img src="./img/The Lonliest.jpg" alt="The Lonliest" />
+              <div class="info">
+                <h3>The Lonliest</h3>
+                <p>Måneskin ♫</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-item view-all">
+            <div class="plus">+</div>
+            <p>View All</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-top">
+          <h2>New Release <span>Songs</span></h2>
+        </div>
+
+        <div class="section-row">
+          <div class="song-row">
+            <div class="song-card">
+              <img src="./img/Time.png" alt="Time" />
+              <div class="info">
+                <h3>Time</h3>
+                <p>Luciano</p>
+              </div>
+            </div>
+            <div class="song-card">
+              <img src="./img/112.png" alt="112" />
+              <div class="info">
+                <h3>112</h3>
+                <p>jazzek</p>
+              </div>
+            </div>
+            <div class="song-card">
+              <img src="./img/wedon'tcare.png" alt="We don't care" />
+              <div class="info">
+                <h3>We don't care</h3>
+                <p>Kyanu & Dj Gullum</p>
+              </div>
+            </div>
+            <div class="song-card">
+              <img src="./img/whoiam.png" alt="Who I Am" />
+              <div class="info">
+                <h3>Who I Am</h3>
+                <p>Alan Walker & Elias</p>
+              </div>
+            </div>
+            <div class="song-card">
+              <img src="./img/XXANTERIA.PNG" alt="Baixo" />
+              <div class="info">
+                <h3>Baixo</h3>
+                <p>XXAnteria</p>
+              </div>
+            </div>
+          </div>
+          <div class="video-item view-all">
+            <div class="plus">+</div>
+            <p>View All</p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <section class="section trending-section"></section>
+        <h1>Trending <span>Songs</span></h1>
+        <div class="trending-table">
+          <div class="t-row">
+            <div class="rank">#1</div>
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/SoftCoree.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>Softcore</h4>
+                <p>The Neighbourhood</p>
+              </div>
+            </div>
+
+            <div class="date">Nov 4, 2023</div>
+            <div class="album">
+              Hard to Imagine the Neighbourhood Ever Changing
+            </div>
+          </div>
+
+          <div class="t-row">
+            <div class="rank">#2</div>
+
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/Skyfall2.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>Skyfall Beats</h4>
+                <p>nightmares</p>
+              </div>
+            </div>
+
+            <div class="date">Oct 26, 2023</div>
+            <div class="album">nightmares</div>
+          </div>
+
+ 
+          <div class="t-row">
+            <div class="rank">#3</div>
+
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/Greedy.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>Greedy</h4>
+                <p>tate mcrae</p>
+              </div>
+            </div>
+
+            <div class="date">Dec 30, 2023</div>
+            <div class="album">Greedy</div>
+          </div>
+
+
+          <div class="t-row">
+            <div class="rank">#4</div>
+
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/LovingonMe.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>Lovin On Me</h4>
+                <p>jack harlow</p>
+              </div>
+            </div>
+
+            <div class="date">Dec 30, 2023</div>
+            <div class="album">Lovin On Me</div>
+          </div>
+
+
+          <div class="t-row">
+            <div class="rank">#5</div>
+
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/townred.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>pain the town red</h4>
+                <p>Doja Cat</p>
+              </div>
+            </div>
+
+            <div class="date">Dec 29, 2023</div>
+            <div class="album">Pain The Town Red</div>
+          </div>
+
+          <div class="t-row">
+            <div class="rank">#6</div>
+
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/Feet.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>Dancin on Night</h4>
+                <p>Dualipa</p>
+              </div>
+            </div>
+
+            <div class="date">May 23, 2023</div>
+            <div class="album">Dance The Night (From Barbie Movie)</div>
+          </div>
+
+          <div class="t-row">
+            <div class="rank">#7</div>
+
+            <div class="song-info">
+              <div class="thumb">
+                <img src="./img/Water.png" alt="" class="thumb" />
+              </div>
+              <div class="text">
+                <h4>Water</h4>
+                <p>Tyla</p>
+              </div>
+            </div>
+
+            <div class="date">Dec 10, 2023</div>
+            <div class="album">Water</div>
+          </div>
+          <!-- VIEW ALL BUTTON -->
+          <div class="view-all-wrapper">
+            <button class="view-all-btn">+ View All</button>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <h2 class="section-title">Popular <span>Artists</span></h2>
+
+        <div class="artist-row">
+          <div class="artist-item">
+            <img src="./MusicMakeer.img/Eminem.png" alt="Eminem" />
+            <p>Eminem</p>
+          </div>
+
+          <div class="artist-item">
+            <img
+              src="./MusicMakeer.img/ImagineDragonband.png"
+              alt="Imagine Dragons"
+            />
+            <p>Imagine Dragons</p>
+          </div>
+
+          <div class="artist-item">
+            <img src="./MusicMakeer.img/ADELE.PNG" alt="Adele" />
+            <p>Adele</p>
+          </div>
+
+          <div class="artist-item">
+            <img src="./MusicMakeer.img/Lanadelrey.png" alt="Lana Del Ray" />
+            <p>Lana Del Ray</p>
+          </div>
+
+          <div class="artist-item">
+            <img src="./MusicMakeer.img/4289193v.webp" alt="Harry Styles" />
+            <p>Harry Styles</p>
+          </div>
+
+          <div class="artist-item">
+            <img src="./img/Billie Eilish top.webp" alt="Billie Eilish" />
+            <p>Billie Eilish</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Music <span>Video</span></h2>
+
+        <div class="video-row">
+
+          <div class="video-item">
+            <img src="/Lyricsvideobanner/maxresdefault (1).jpg" alt="Gossip" />
+            <div class="video-info">
+              <div>
+                <h4>Gossip</h4>
+                <p>Måneskin</p>
+              </div>
+              <span class="views">231K views</span>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <img src="/Lyricsvideobanner/ShapeofYou.png" alt="Shape Of You" />
+            <div class="video-info">
+              <div>
+                <h4>Shape Of You</h4>
+                <p>Ed Sheeran</p>
+              </div>
+              <span class="views">5M views</span>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <img
+              src="/Lyricsvideobanner/someonelikeyou.png"
+              alt="Someone Like You"
+            />
+            <div class="video-info">
+              <div>
+                <h4>Someone Like You</h4>
+                <p>Adele</p>
+              </div>
+              <span class="views">3M views</span>
+            </div>
+          </div>
+          <div class="video-item">
+            <img src="/Lyricsvideobanner/ShapeofYou.png" alt="ShapeOfYou" />
+            <div class="video-info">
+              <div>
+                <h4>Shape Of You</h4>
+                <p>Ed Sheeran</p>
+              </div>
+              <span class="views">5M views</span>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <img src="/Lyricsvideobanner/roar.png" alt="Roar" />
+            <div class="video-info">
+              <div>
+                <h4>Roar</h4>
+                <p>Katy Perry</p>
+              </div>
+              <span class="views">4.6M views</span>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <img src="/Lyricsvideobanner/shakeitoff.png" alt="Shake it Off" />
+            <div class="video-info">
+              <div>
+                <h4>Shake it Off</h4>
+                <p>Taylor Swift</p>
+              </div>
+              <span class="views">4.2M views</span>
+            </div>
+          </div>
+           <div class="video-item view-all">
+            <div class="plus">+</div>
+            <p>View All</p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="section-top">
+          <h2>Top <span>Album</span></h2>
+        </div>
+
+        <div class="section-row">
+          <div class="song-row">
+
+            <div class="song-card">
+              <img src="./topablumsimg/adele21.png" alt="Adele1" />
+              <div class="info">
+                <h3>Adele21</h3>
+                <p>Adele</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img
+                src="./topablumsimg/The_Weeknd_-_Beauty_Behind_the_Madness.png"
+                alt="The Weekend"
+              />
+              <div class="info">
+                <h3>Beauty Behind the Madnesse21</h3>
+                <p>The Weekend</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img src="./topablumsimg/Drake.png" alt="Drake" />
+              <div class="info">
+                <h3>Scorpion</h3>
+                <p>Drake</p>
+              </div>
+            </div>
+ 
+            <div class="song-card">
+              <img src="./topablumsimg/harryhouse.png" alt="Harry" />
+              <div class="info">
+                <h3>Harry's House</h3>
+                <p>Alan Walker & Elias</p>
+              </div>
+            </div>
+
+            <div class="song-card">
+              <img src="./topablumsimg/BORNTODIE.PNG" alt="BornToDie" />
+              <div class="info">
+                <h3>Born to Die</h3>
+                <p>Lana Del May</p>
+              </div>
+            </div>
+          </div>
+
+  
+          <div class="video-item view-all">
+            <div class="plus">+</div>
+            <p>View All</p>
+          </div>
+        </div>
+      </section>
+
+  
+      <section class="section">
+        <h2 class="section-title">Mood <span>Playlists</span></h2>
+
+        <div class="card-row">
+
+          <div class="playlist-card">
+            <img src="./MOODSONG/sadsong.png" alt="Sad Songs" />
+            <span class="overlay-title">Sad Songs</span>
+            <div class="card-footer">
+              <p>Sad Playlist</p>
+            </div>
+          </div>
+
+          <div class="playlist-card">
+            <img src="./MOODSONG/chillsong.png" alt="Chill Songs" />
+            <span class="overlay-title">Chill Songs</span>
+            <div class="card-footer">
+              <p>Chill Playlist</p>
+            </div>
+          </div>
+
+          <div class="playlist-card">
+            <img src="./MOODSONG/Workout music.png" alt="Workout Songs" />
+            <span class="overlay-title">Workout Songs</span>
+            <div class="card-footer">
+              <p>Workout Songs</p>
+            </div>
+          </div>
+
+          <div class="playlist-card">
+            <img src="./MOODSONG/lovesong.png" alt="Love Songs" />
+            <span class="overlay-title">Love songs</span>
+            <div class="card-footer">
+              <p>Love Playlist</p>
+            </div>
+          </div>
+
+          <div class="playlist-card">
+            <img src="./MOODSONG/happy.jpg" alt="Happy Songs" />
+            <span class="overlay-title">Happy Songs</span>
+            <div class="card-footer">
+              <p>Happy Songs</p>
+            </div>
+          </div>
+
+
+          <div class="video-item view-all">
+            <div class="plus">+</div>
+            <p>View All</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="join-box">
+        <div class="join-content">
+          <h2>Join Our Platform</h2>
+
+          <p>
+            You can be one of the <span class="highlight">members</span> of our
+            platform by just adding some necessarily information. If you already
+            have an account on our website, you can just hit the
+            <span class="login-text">Login</span> button.
+          </p>
+        </div>
+
+        <div class="join-actions">
+          <button class="join-btn">Sign Up</button>
+          <button class="login-btn">Login</button>
+        </div>
+      </section>
+
+  
+      <footer class="footer">
+        <div class="footer-container">
+
+          <div class="footer-about">
+            <h3>About</h3>
+            <p>
+              Melodies is a website that has been created for over
+              <span class="pink">5 year's</span> now and it is one of the most
+              famous music player website's in the world. in this website you
+              can listen and download songs for free. also of you want no
+              limitation you can buy our
+              <span class="blue">premium pass's</span>.
+            </p>
+          </div>
+
+
+          <div class="footer-col">
+            <h3>Melodi</h3>
+            <ul>
+              <li>Songs</li>
+              <li>Radio</li>
+              <li>Podcast</li>
+            </ul>
+          </div>
+
+
+          <div class="footer-col">
+            <h3>Access</h3>
+            <ul>
+              <li>Explor</li>
+              <li>Artists</li>
+              <li>Playlists</li>
+              <li>Albums</li>
+              <li>Trending</li>
+            </ul>
+          </div>
+
+ 
+          <div class="footer-col">
+            <h3>Contact</h3>
+            <ul>
+              <li>About</li>
+              <li>Policy</li>
+              <li>Social Media</li>
+              <li>Sopport</li>
+            </ul>
+          </div>
+
+ 
+          <div class="footer-brand">
+            <h2>Melodies</h2>
+
+            <div class="socials">
+
+              <div class="social">f</div>
+              <div class="social">ig</div>
+              <div class="social">tw</div>
+              <div class="social">0123456789</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="Home.js"></script>
+  </body>
+</html>

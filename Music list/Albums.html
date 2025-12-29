@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Melodies</title>
+    <link rel="stylesheet" href="Albums.css" />
+    
+  </head>
+  <body>
+    <div class="app">
+
+<aside class="sidebar">
+  <h2 class="logo">Melodies</h2>
+
+  <nav>
+    <ul class="menu">
+      <li class="section">Menu</li>
+     <a href="/Home.html"><li class="item">Home</li></a>
+      <a href="/Discover/Discover.html"><li class="item">Discover</li></a>
+      <a href="#"><li class="item active">Albums</li></a>
+      <a href="/Artist/Artist.html"><li class="item">Artists</li></a>
+
+      <li class="section">Library</li>
+      <li class="item">Recently Added</li>
+      <li class="item">Most Played</li>
+
+      <li class="section">Library</li>
+      <li class="item">Your Favorites</li>
+      <li class="item">Your Playlist</li>
+      <li class="item add">Add Playlist</li>
+
+      <li class="section">General</li>
+      <li class="item">Settings</li>
+    </ul>
+  </nav>
+
+  <div class="logout">Logout</div>
+</aside>
+
+
+
+      <main class="main">
+     
+        <div class="topbar">
+          <i class="fa fa-arrow-left"></i>
+          <div class="top-right">
+            <span>Share</span>
+            <span>About</span>
+            <span>Premium</span>
+          </div>
+        </div>
+
+  
+        <div class="header">
+          <div class="header-left">
+            <img src="/img/musicnote.avif" class="header-cover" />
+
+            <div class="header-info">
+              <span class="header-tag">TRENDING MUSIC</span>
+
+              <h1>Trending songs <span class="mix">mix</span></h1>
+
+              <p class="desc">
+                tate mcrae, nightmares, the neighborhood, doja cat and ...
+              </p>
+
+              <div class="meta">
+                <span>20 songs</span>
+                <span class="dot"></span>
+                <span>1h 36m</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="play-all">
+            <span>Play All</span>
+            <div class="play-icon">
+              <i class="fa fa-play"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="list">
+  <div class="head">
+    <span>#</span>
+    <span>Title</span>
+    <span>Album</span>
+    <span>Time</span>
+  </div>
+
+  <div class="song active" data-src="songs/The Neighbourhood - Softcore (Official Audio).mp3">
+    <span class="index">
+  <span class="num">1</span>
+  <i class="fa fa-play play-icon-row"></i>
+</span>
+
+
+    <div class="info">
+      <img src="/img/SoftCoree.png  " alt="">
+      <div class="title">
+        <strong>Softcore</strong>
+        <small>The Neighbourhood</small>
+      </div>
+    </div>
+
+    <span class="album">Hard to Imagine...</span>
+
+    <span class="time">
+      3:26 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+
+  <div class="song" data-src="songs/Skyfall Complete Score 45 - Skyfall (Instrumental Version).mp3">
+    <span class="index">2</span>
+
+    <div class="info">
+      <img src="/img/Skyfall2.png" alt="">
+      <div class="title">
+        <strong>Skyfall Beats</strong>
+        <small>Adele</small>
+      </div>
+    </div>
+
+    <span class="album">Nightmares</span>
+
+    <span class="time">
+      2:45 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Tate McRae - greedy (Official Video).mp3">
+    <span class="index">3</span>
+
+    <div class="info">
+      <img src="/img/Greedy.png" alt="">
+      <div class="title">
+        <strong>Greedy</strong>
+        <small>take mcrae</small>
+      </div>
+    </div>
+
+    <span class="album">Greedy</span>
+
+    <span class="time">
+      2:45 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Jack Harlow - Lovin On Me [Official Music Video].mp3">
+
+    <span class="index">4</span>
+
+    <div class="info">
+      <img src="/img/LovingonMe.png" alt="">
+      <div class="title">
+        <strong>Lovin On me</strong>
+        <small>jack harlow</small>
+      </div>
+    </div>
+
+    <span class="album">Lovin On me</span>
+
+    <span class="time">
+      2:18 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Doja Cat - Paint The Town Red (Official Video).mp3">
+    <span class="index">5</span>
+
+    <div class="info">
+      <img src="/img/townred.png" alt="">
+      <div class="title">
+        <strong>pain the town red</strong>
+        <small>Doja Cat</small>
+      </div>
+    </div>
+
+    <span class="album">Paint The Town Red</span>
+
+    <span class="time">
+      3:51 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Dua Lipa - Dance The Night (From Barbie The Album) [Official Lyric Video].mp3">
+    <span class="index">6</span>
+
+    <div class="info">
+      <img src="/img/Barbie.png" alt="">
+      <div class="title">
+        <strong>Dacin On Night</strong>
+        <small>Dualipa</small>
+      </div>
+    </div>
+
+    <span class="album">Dance The Night</span>
+
+    <span class="time">
+      2:56 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Tyla - Water (Official Music Video).mp3">
+    <span class="index">7</span>
+
+    <div class="info">
+      <img src="/img/Water.png" alt="">
+      <div class="title">
+        <strong>Water</strong>
+        <small>Tyla</small>
+      </div>
+    </div>
+
+    <span class="album">Water</span>
+
+    <span class="time">
+      3:20 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Push Your Limits - Brian Michael Hinds (Offical Bottom G Music Video).mp3">
+    <span class="index">8</span>
+
+    <div class="info">
+      <img src="/img/pushurlimint.webp" alt="">
+      <div class="title">
+        <strong>Push your limits</strong>
+        <small>Brian michael</small>
+      </div>
+    </div>
+
+    <span class="album">Push your limits</span>
+
+    <span class="time">
+      2:24 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Myke Towers - LALA (Letra_Lyrics) (1).mp3">
+    <span class="index">9</span>
+
+    <div class="info">
+      <img src="/img/lala.jpg" alt="">
+      <div class="title">
+        <strong>Lala</strong>
+        <small>myke towers</small>
+      </div>
+    </div>
+
+    <span class="album">La vida es una</span>
+
+    <span class="time">
+      3:17 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Arctic Monkeys - I Wanna Be Yours.mp3">
+    <span class="index">10</span>
+
+    <div class="info">
+      <img src="/img/iwannatobeyour.jpg" alt="">
+      <div class="title">
+        <strong>I Wanaa Be Yours</strong>
+        <small>arctic monkeys</small>
+      </div>
+    </div>
+
+    <span class="album">AM</span>
+
+    <span class="time">
+      3:03 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Harry Styles - As It Was (Official Video).mp3">
+    <span class="index">11</span>
+
+    <div class="info">
+      <img src="/img/paradise.jfif" alt="">
+      <div class="title">
+        <strong>As It Was</strong>
+        <small>Harry Styles</small>
+      </div>
+    </div>
+
+    <span class="album">As It Was</span>
+
+    <span class="time">
+      2:47 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/Tom Odell - Another Love (Official Video).mp3">
+    <span class="index">12</span>
+
+    <div class="info">
+      <img src="/topablumsimg/harryhouse.png" alt="">
+      <div class="title">
+        <strong>Another Love</strong>
+        <small>Tom Odell</small>
+      </div>
+    </div>
+
+    <span class="album">Another Love</span>
+
+    <span class="time">
+      4:06 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+    <div class="song" data-src="songs/David Kushner - Daylight (Official Music Video).mp3">
+    <span class="index">13</span>
+
+    <div class="info">
+      <img src="/img/dayligjt.jpg" alt="">
+      <div class="title">
+        <strong>Daylight</strong>
+        <small>david kushner</small>
+      </div>
+    </div>
+
+    <span class="album">Daylight</span>
+
+    <span class="time">
+      3:32 <i class="fa fa-heart"></i>
+    </span>
+  </div>
+</div>
+
+
+<div class="player">
+  <div class="player-left">
+    <img id="playerCover" src="images/softcore.jpg" />
+    <div class="player-info">
+      <strong id="nowTitle">Softcore</strong>
+      <small id="nowArtist">The Neighbourhood</small>
+    </div>
+  </div>
+
+  <audio id="audio" controls></audio>
+</div>
+ <footer class="footer">
+        <div class="footer-container">
+        
+          <div class="footer-about">
+            <h3>About</h3>
+            <p>
+              Melodies is a website that has been created for over
+              <span class="pink">5 year's</span> now and it is one of the most
+              famous music player website's in the world. in this website you
+              can listen and download songs for free. also of you want no
+              limitation you can buy our
+              <span class="blue">premium pass's</span>.
+            </p>
+          </div>
+
+          
+          <div class="footer-col">
+            <h3>Melodi</h3>
+            <ul>
+              <li>Songs</li>
+              <li>Radio</li>
+              <li>Podcast</li>
+            </ul>
+          </div>
+
+      
+          <div class="footer-col">
+            <h3>Access</h3>
+            <ul>
+              <li>Explor</li>
+              <li>Artists</li>
+              <li>Playlists</li>
+              <li>Albums</li>
+              <li>Trending</li>
+            </ul>
+          </div>
+
+     
+          <div class="footer-col">
+            <h3>Contact</h3>
+            <ul>
+              <li>About</li>
+              <li>Policy</li>
+              <li>Social Media</li>
+              <li>Sopport</li>
+            </ul>
+          </div>
+
+         
+          <div class="footer-brand">
+            <h2>Melodies</h2>
+
+            <div class="socials">
+
+              <div class="social">f</div>
+              <div class="social">ig</div>
+              <div class="social">tw</div>
+              <div class="social">☎</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="Albums.js"></script>
+  </body>
+</html>

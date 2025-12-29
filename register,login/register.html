@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Melodies - Register</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h2>Melodies</h2>
+      </div>
+
+      <h3>Sign Up To Continue</h3>
+
+      <input type="text" id="name" placeholder="Name" />
+      <input type="email" id="email" placeholder="E-Mail" />
+
+      <div class="password-box">
+        <input type="password" id="password" placeholder="Password" />
+        <i class="fa fa-eye" onclick="togglePassword('password', this)"></i>
+      </div>
+
+      <input type="text" id="phone" placeholder="Phone Number" />
+
+      <p class="error" id="registerError"></p>
+
+      <button onclick="register()">Create an account</button>
+
+      <p class="switch">
+        Already have an account?
+        <a href="login.html">Login</a>
+      </p>
+    </div>
+
+    <script src="auth.js"></script>
+  </body>
+</html>
