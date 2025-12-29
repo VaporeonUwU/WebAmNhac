@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!row) return;
 
-    // 🔴 CHỈ LẤY ITEM THẬT – LOẠI VIEW ALL
     const items = [...row.children].filter(
       (el) => !el.classList.contains("view-all")
     );
